@@ -1,7 +1,9 @@
 # Problem Statement:https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=arrays
 
 #!/bin/python
+# Method 1: Using Python Function
 
+***
 import math
 import os
 import random
@@ -35,3 +37,29 @@ if __name__ == '__main__':
     fptr.write('\n')
 
     fptr.close()
+***
+
+# METHOD 2: Without Using Python Funtions with logic:
+
+def rotLeft(a, d):
+    
+    RotedArr= []
+    index=d
+    i=0
+    size=len(a)
+    
+
+    while index < size:
+        
+        RotedArr[i]=a[index]
+        i+=1
+        index+=1
+        
+    
+    index=0
+    while index < d:
+        RotedArr[i]=a[index]
+        i+=1
+        index+=1
+    
+    return RotedArr
