@@ -10,12 +10,16 @@ As a result, we are revolutionizing the way companies discover and evaluate tale
 
 # What is the purpose of solving challenges?
 
-For Fun. What can be more exciting than solving challenging problems? We have also added helpful features to make your coding experience enjoyable, such as providing boilerplate code and displaying animations of your running code.
+# For Fun. 
+What can be more exciting than solving challenging problems? We have also added helpful features to make your coding experience enjoyable, such as providing boilerplate code and displaying animations of your running code.
 
-Glory. As you solve more challenges, you will earn points, and move up in the Hacker Rank Leader board. Many challenges will also involve a competition between your bots and the bots coded by other hackers, so may the best hacker win!
+# Glory. 
+As you solve more challenges, you will earn points, and move up in the Hacker Rank Leader board. Many challenges will also involve a competition between your bots and the bots coded by other hackers, so may the best hacker win!
 
-Community. We are building a community of hackers who will be able to discuss problems, learn, compete and collaborate together.
+# Community. 
+We are building a community of hackers who will be able to discuss problems, learn, compete and collaborate together.
 
-Learning . You will be able to learn new programming topics and techniques by going through the challenges on HackerRank. We believe the way to learn something is by doing it.
+## Learning. 
+You will be able to learn new programming topics and techniques by going through the challenges on HackerRank. We believe the way to learn something is by doing it.
 
 source: https://www.hackerrank.com/faq
