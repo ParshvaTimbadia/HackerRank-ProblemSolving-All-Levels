@@ -21,7 +21,12 @@ def equalStacks(h1, h2, h3):
         l2 = l2 + each
     for each in h3:
         l3 = l3 + each
-    while l1 !=0 and l2 != 0 and l3 != 0 and (l1!=l2 or l2!=l3):
+    while True:
+        if l1==l2 and l2==l3:
+            return l1
+        if l1==0 and l2==0 and l3==0:
+            return 0
+
         if max(l1, l2, l3) == l1:
             l1 = l1 - h1[0]
             h1.pop(0)
@@ -32,12 +37,7 @@ def equalStacks(h1, h2, h3):
             l3 = l3 - h3[0]
             h3.pop(0)
    
-    if l1==l2 and l2==l3:
-            return l1
-    else:
-            return 0
-    # Write your code here.
-    #
+    
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
@@ -59,5 +59,3 @@ if __name__ == '__main__':
     result = equalStacks(h1, h2, h3)
 
     fptr.write(str(result) + '\n')
-
-    fptr.close()
